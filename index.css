@@ -1,0 +1,95 @@
+* {
+    font-family: sans-serif;
+}
+
+.backimage {
+    width: 600px;
+    height: 400px;
+    position: relative;
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEik2eOoyV1_DL0yYOxAVYSM4vOnaRqb0SpwtTbE0exHuJ0N3UpV0m0voHO9bIkq-JKWr0EttZSd6SlY9m0VUjsw_nohior7RhYsdiCmO26ABfwUpD7rwjL2VmRuPiEFtS_8M_xspw03qv4L/s640/casey-fyfe-R5S4OQpG0lE-unsplash.jpg');
+    background-size: cover;
+
+}
+
+.tiltle {
+    position: relative;
+    text-align: center;
+    top: 200px;
+    font-weight: 100;
+    color: white;
+
+    transition: all .5s linear;
+}
+
+span {
+    font-weight: 1000;
+}
+
+.backimage:hover .tiltle {
+    opacity: 0;
+}
+
+.khung-container {
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50px;
+    left: 10px;
+    opacity: 0;
+    transform: scale(0.5);
+    transition: all .3s linear;
+}
+
+.backimage:hover .khung-container {
+    opacity: 100%;
+    transform: scale(1);
+   
+
+}
+
+.khung {
+    width: 150px;
+    height: 150px;
+    background: rgb(247, 246, 246, 0);
+    border: 5px solid white;
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:10px;
+   
+}
+
+.icons {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    transform: scale(1.22);
+    transition: all .3s linear;
+}
+.backimage:hover .icons{
+    transform: scale(0.35);
+
+}
+.top-left {
+    position: absolute;
+    top: -80px;
+    left: -90px;
+}
+.top-right {
+    position: absolute;
+    top: 70px;
+    right: -90px;
+}
+.bottom-left {
+    position: absolute;
+    bottom: -100px;
+    left: -100px;
+}
+.bottom-right {
+    position: absolute;
+    bottom: 50px;
+    right: -90px;
+}
